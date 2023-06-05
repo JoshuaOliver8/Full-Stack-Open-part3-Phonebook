@@ -1,0 +1,9 @@
+DELETE http://localhost:3001/api/persons/164179064
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "James Franco",
+    "number": "555-OHMYLORD"
+}
