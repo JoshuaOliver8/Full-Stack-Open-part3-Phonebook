@@ -1,9 +1,9 @@
-DELETE http://localhost:3001/api/persons/164179064
+DELETE http://localhost:3001/api/people/647f9c1e705f2bf4fb4ad968
 ###
-POST http://localhost:3001/api/persons
+POST http://localhost:3001/api/people
 Content-Type: application/json
 
 {
-    "name": "James Franco",
-    "number": "555-OHMYLORD"
+    "name": "Bill Nye",
+    "number": "55-5555555"
 }
